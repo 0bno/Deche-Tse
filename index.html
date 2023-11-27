@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Déche'Tse</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">hello@dechetse.fr</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+33 0 12 34 56 78</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section><!-- End Top Bar -->
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+        <h1>éche'Tse<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">Comment ça marche ?</a></li>
+          <li><a href="#services">Des stats pour mieux comprendre !</a></li>
+          <li><a href="IA/fast-scan.php">Scan rapide</a></li>
+          <li class="dropdown"><a href="#"><span>Pour aller plus loin</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li class="dropdown"><a href="#"><span>About us</span><i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="#about">Le projet</a></li>
+                  <li><a href="#team">Notre équipe</a></li>
+                  <li><a href="#contact">Nous contacter</a></li>
+                </ul>
+              </li>
+              <li><a href="#portfolio">S'informer</a></li>
+              <li><a href="#recent-news">Les news</a></li>
+              <li><a href="privacy-policy.html">Vos données</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#testimonials">Les commentaires</a></li>
+            </ul>
+          </li>
+          <li><a href="account/login.html">Connexion</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= home Section ======= -->
+  <section id="home" class="home">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Bienvenue sur <span>Déche'Tse.</span></h2>
+          <p>La platerforme web qui te permet de faire un geste pour la planète tout en t'informant.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="IA/fast-scan.php" class="btn-scan-waste"><h3>Scanner un déchet</h3></a> <!-- le bouton-->
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-easel"></i></div>
+              <h4 class="title"><a href="index.html#portfolio" class="stretched-link">S'informer</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-phone"></i></div>
+              <h4 class="title"><a href="IA/fast-scan.php" class="stretched-link">Scanner</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-recycle"></i></div>
+              <h4 class="title"><a href="#" class="stretched-link">Recycler</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-globe2"></i></div>
+              <h4 class="title"><a href="#" class="stretched-link">Préserver</a></h4>
+            </div>
+          </div>
+          <!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End home Section -->
+
+  <main id="main">
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <h2>Comment ça marche ?</h2>
+        <p>L'objectif de notre projet est de vous permettre de vous instruire sur des problèmatiques environnementales tout en vous aidant à recycler vos déchets !</p>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <h3>Comment est né Deche'tse ?</h3>
+          <img src="assets/img/logo.png" class="img-fluid rounded-4 mb-4" alt="" width="1024px" height="768px">
+          <p>Les déchets sont un problème majeur pour notre planète. Pour faire face à cette situation, nous avons décidé de prendre les choses 
+            en main et de créer un site qui aidera les gens à trier leurs déchets de manière plus efficace.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="content ps-0 ps-lg-5">
+            <p>Le site, appelé "Deche'tse", est conçu pour être simple à utiliser et accessible à tous. 
+              L'objectif est de permet aux utilisateurs de scanner un déchet qu'ils souhaitent jeter et de recevoir immédiatement des informations sur le type de déchet afin de le trier correctement.
+              Les informations sont fournies de manière claire et concise, ce qui facilite la compréhension pour les utilisateurs.
+            </p>
+            <p>
+              Le site inclut également une section Informations avec des statistiques ainsi que des conseils pour réduire la quantité de déchets produits. 
+              Enfin, une section Témoignages permet aux utilisateurs de partager leur expérience et de créer une communauté de personnes soucieuses de l'environnement.
+            </p>
+            <p>
+              L'objectif de Deche'tse est de sensibiliser les gens à l'importance du tri des déchets et de les aider à adopter des habitudes plus durables. 
+              Nous espérons que notre initiative permettra de faire une différence concrète pour notre planète, en aidant les gens à mieux comprendre l'impacr des déchets qu'ils produisent, et 
+              ainsi réduire leur impact sur la planète.
+            </p>
+            <div class="position-relative mt-4">
+              <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Stats Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Des statistiques pour mieux comprendre</h2>
+          <p>Vous découvrirez ci-dessous des représentations graphiques afin de mieux comprendre la situation notemment en Europe et en France</p>
+        </div>
+
+          <div class='tableauPlaceholder' id='viz1675358771447' style='position: relative; display: block; margin:auto;'>
+            <noscript>
+              <a href='#'>
+                <img alt='Production des déchets en Europe et particulièrement en France ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;Classeur_16753587002080&#47;Tableaudebord1&#47;1_rss.png' style='border: none' />
+              </a>
+            </noscript>
+            <object class='tableauViz'  style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+              <param name='embed_code_version' value='3' /> 
+              <param name='site_root' value='' />
+              <param name='name' value='Classeur_16753587002080&#47;Tableaudebord1' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cl&#47;Classeur_16753587002080&#47;Tableaudebord1&#47;1.png' /> 
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='fr-FR' />
+            </object>
+          </div>                
+          <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1675358771447');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+            else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+          </script>
+
+      </div>
+    </section><!-- End Our Services Section -->
+
+  <!-- ======= Stats Counter Section ======= -->
+  <section id="stats-counter" class="stats-counter">
+    <div class="container" data-aos="fade-up">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-6">
+          <img src="assets/img/stats-img.svg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <div class="stats-item d-flex align-items-center">
+            <span data-purecounter-start="0" data-purecounter-end="353000000" data-purecounter-duration="10" class="purecounter"></span>
+            <p><strong>Déchets plastiques (tonnes)</strong> générés en 2022 - Monde</p>
+          </div><!-- End Stats Item -->
+
+          <div class="stats-item d-flex align-items-center">
+            <span data-purecounter-start="0" data-purecounter-end="56000" data-purecounter-duration="1" class="purecounter"></span>
+            <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Déchets recylés (kg)</strong> en 2022 - France
+            </p>
+          </div><!-- End Stats Item -->
+
+          <div class="stats-item d-flex align-items-center">
+            <span data-purecounter-start="0" data-purecounter-end="5100" data-purecounter-duration="1" class="purecounter"></span>
+            <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Déchets produits (kg)</strong> par habitant en 2022 - France
+            </p>
+          </div><!-- End Stats Item -->
+        </div>
+      </div>
+    </div>
+  </section><!-- End Stats Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Les types de déchet recyclables</h2>
+          <p>Il existe de nombreux types de déchets. On peut diviser ces groupes en sous catégories, qui ont chacunes des propriétés différentes.</p>
+        </div>
+
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+
+          <div>
+            <ul class="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-paper">Papiers & Cartons</li>
+              <li data-filter=".filter-metallic">Métaliques</li>
+              <li data-filter=".filter-plastic">Plastiques</li>
+              <li data-filter=".filter-glass">Verre</li>
+              <li data-filter=".filter-organic">Organiques</li>
+              <li data-filter=".filter-electronic">Électroniques</li>
+            </ul><!-- End Portfolio Filters -->
+          </div>
+
+          <div class="row gy-4 portfolio-container">
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-paper">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/journaux_magazines.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/journaux_magazines.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Journaux & Magazines</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-metallic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/objets_metal.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/objets_metal.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="metal-portfolio.html" title="More Details">Objets en métal</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-plastic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/plastiques_durs.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/plastiques_durs.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Plastiques durs</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-glass">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/contenants_verre.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/contenants_verre.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Contenants en verre</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-paper">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/emballages_cartons.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/emballages_cartons.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Emballages cartons</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-metallic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/metaux_legers.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/metaux_legers.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Métaux légers</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-plastic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/contenants_plastiques.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/contenants_plastiques.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Contenants plastiques</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-plastic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/films_plastiques.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/films_plastiques.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Films plastiques</a></h4>
+                </div>
+              </div>
+            </div> <!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-paper">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/papiers_administratifs.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/papiers_administratifs.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Papiers administratifs</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-metallic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/metaux_lourds.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/metaux_lourds.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="metal-portfolio.html" title="More Details">Métaux lourds</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-glass">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/flacons_verre.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/flacons_verre.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Flacons en verre</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-glass">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/ampoules.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/ampoules.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Ampoules</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-electronic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/appareils_electromenagers.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/appareils_electromenagers.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Appareils électroménagers</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-electronic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/equipements_informatiques.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/equipements_informatiques.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Équipement informatique</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-organic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/restes_alimentaires.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/restes_alimentaires.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Restes alimentaires</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-xl-4 col-md-6 portfolio-item filter-organic">
+              <div class="portfolio-wrap">
+                <a href="assets/img/portfolio/dechets_jardin.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="assets/img/portfolio/dechets_jardin.png" class="img-fluid" alt=""></a>
+                <div class="portfolio-info">
+                  <h4><a href="portfolio-details.html" title="More Details">Déchets du jardin</a></h4>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  <!-- ======= Recent News Posts Section ======= -->
+  <section id="recent-news" class="recent-news">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>Les news de Saint-Étienne et alentours</h2>
+        <p>Vous trouverez ci-dessous plusieurs articles des actualités en terme de traitement des déchets de Saint-Étienne et ses alentours</p>
+      </div>
+
+      <div class="row gy-4">
+
+        <div class="col-xl-4 col-md-6">
+          <article>
+
+            <div class="post-img">
+              <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
+            </div>
+
+            <p class="post-category">Environnement</p>
+
+            <h2 class="title">
+              <!-- <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a> -->
+              <a href="https://www.francebleu.fr/infos/environnement/gestion-des-dechets-a-saint-etienne-metropole-1666069797" target="_blank">
+                Recyclage des déchets à Saint-Étienne Métropole
+              </a>
+            </h2>
+
+            <div class="d-flex align-items-center">
+              <img src="assets/img/news/journaliste_1.png" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="post-meta">
+                <p class="post-author">Tifany Antkowiak</p>
+                <p class="post-date">France Bleu Saint-Étienne Loire</p>
+                <p class="post-date">
+                  <time datetime="2022-01-01">18 octobre 2022 à 8:39</time>
+                </p>
+              </div>
+            </div>
+
+          </article>
+        </div><!-- End post list item -->
+
+        <div class="col-xl-4 col-md-6">
+          <article>
+
+            <div class="post-img">
+              <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+            </div>
+
+            <p class="post-category">Environnement</p>
+
+            <h2 class="title">
+              <a href="https://www.lessor42.fr/poubelle-jaune-nouvelles-consignes-de-tri-pour-les-habitants-de-saint-etienne-metropole-118461.html" target="_blank">
+                Poubelle jaune : nouvelles consignes de tri
+              </a>
+            </h2>
+
+            <div class="d-flex align-items-center">
+              <img src="assets/img/news/journaliste_2.png" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="post-meta">
+                <p class="post-author">ESSOR REDACTION</p>
+                <p class="post-date">ESSOR Loire</p>
+                <p class="post-date">
+                  <time datetime="2022-01-01">2 janvier 2023 à 12:48</time>
+                </p>
+              </div>
+            </div>
+
+          </article>
+        </div><!-- End post list item -->
+
+        <div class="col-xl-4 col-md-6">
+          <article>
+
+            <div class="post-img">
+              <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
+            </div>
+
+            <p class="post-category">Environnement</p>
+
+            <h2 class="title">
+              <a href="https://www.saint-etienne-metropole.fr/preserver-recycler/gestion-des-dechets/emballages-papiers-poubellejaune" target="_blank">
+                Mémos pour trier ses déchets
+              </a>
+            </h2>
+
+            <div class="d-flex align-items-center">
+              <img src="assets/img/news/journaliste_3.png" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="post-meta">
+                <p class="post-author">Saint-Étienne La métropole</p>
+                <p class="post-date">
+                  <time datetime="2022-01-01">5 janvier 2023 à 9:20</time>
+                </p>
+              </div>
+            </div>
+
+          </article>
+        </div><!-- End post list item -->
+
+      </div><!-- End recent posts list -->
+
+    </div>
+  </section><!-- End News Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="content px-xl-5">
+              <h3><strong>Questions</strong> fréquemment posées</h3>
+              <p>
+                Un problèmes ? Une recherche ? Un besoin ? Pensez à regarder dans la sections des questions fréquemment posées avant de contacter le support.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+
+            <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    <span class="num">1.</span>
+                    Puis-je enregistrer les déchets que je scanne et voir mon historique ?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Bien sur. Le scan rapide est fait pour que vous puissiez tester l'outil. Vous pouvez vous connecter à votre session et lancer un scan qui sera enregistré. 
+                    Vous pourrez également voir vos statistiques détaillées, votre historique de scan ainsi que vos badges reçues.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    <span class="num">2.</span>
+                    Comment puis-je contacter le support ?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Afin de toujours rester en lien avec nos utilisateurs, 
+                    nous avons mis en place un formulaire de contact, pour vous simplifier la vie, disponible 
+                    <a href="index.html#contact"></i>ici</i></a>.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    <span class="num">3.</span>
+                    Comment le site peut-il reconnaitre et nous indiquer de quel type de déchet il s'agit ?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Vous avez simplement à nous envoyer une image et nous nous occupons de tout. Une IA a été spécialement entrainée pour reconnaitre des déchets sur des images passées en paramètre.<br>
+                    L'IA s'est entrainée sur des milliers d'images afin de parfaire son apprentissage.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                    <span class="num">4.</span>
+                      Que deviennent mes données collectées par Déche'Tse ?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Toutes vos données collectées sont gardées privées. Vous pouvez en savoir plus en suivant <a href="privacy-policy.html"></i>ce lien</i></a>.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                    <span class="num">5.</span>
+                      Comment de connecter à mon compte ?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Vous pouvez vous connecter via le bouton connexion dans le menu ou directement <a href="account/login.html"></i>ici</i></a>.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+  <!-- ======= Testimonials Section ======= -->
+  <section id="testimonials" class="testimonials sections-bg">
+    <div class="container" data-aos="fade-up">
+    
+      <div class="section-header">
+        <h2>Témoignages</h2>
+        <p>N'hésitez pas à laisser vos avis et témoignages à propos de Déche'Tse. Merci d'avance !</p>
+      </div>
+    
+      <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+    
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>Jonathan PEREIRA</h3>
+                    <h4>Alternant à Télécom Saint-Étienne &amp; Protecteur de la planète</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Étant très soucieux de la planète, j'ai pu utiliser Déche'Tse à des fins tant informatives que pratiques, c'est vraiment un super outil !
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+    
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>Claude CHAMBÉRY</h3>
+                    <h4>Alternant à Télécom Saint-Étienne</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Waow c'est vraiment ce dont j'avais besoin !
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+    
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>Lilian LAMOUILLE</h3>
+                    <h4>Alternant à Télécom Saint-Étienne &amp; Streamer pro à mes heures perdues</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  J'adore Déche'Tse ! Étant streamer professionel, trier mes déchets est un vrai casse tête et une perte de temps. J'ouvre la page web, je scanne, je recycle. Et hop, je retourne streamer.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+    
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>Maëlo REOT</h3>
+                    <h4>Alternant à Télécom Saint-Étienne</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  N'ayant pas de pc, l'aspect responsive du site est un pur bonheur pour m'aider à trier mes déchets via mon téléphone.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+    
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img flex-shrink-0" alt="">
+                  <div>
+                    <h3>Émilien DENAES</h3>
+                    <h4>Intervenant à Télécom Saint-Étienne </h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  J'aime vraiment bien cette réalisation. Malheureusement, je ne peux mettre une note supérieure à 18 sous peine d'avoir à faire à l'administration.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+    
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+    </div>
+  </section><!-- End Testimonials Section -->
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Notre équipe</h2>
+          <p>Voici notre équipe pour ce projet, composée de 3 étudiants à Télécom Saint-Étienne, en FISA DE3.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/team/J__Muguet.jpg" class="img-fluid" alt="">
+              <h4>Julien MUGUET</h4>
+              <span>Developper full-stack</span>
+              <div class="social">
+                <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/julien-muguet-6b7b08196/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/team/S_Hassayoun.jpg" class="img-fluid" alt="">
+              <h4>Syrine Hassayoun</h4>
+              <span>Data developper/analyst</span>
+              <div class="social">
+                <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/syrine_hassayoun/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/syrine-hassayoun-7740981b5/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/team/M_Reot.jpg" class="img-fluid" alt="">
+              <h4>Maëlo Reot</h4>
+              <span>Developper full-stack</span>
+              <div class="social">
+                <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ma%C3%ABlo-reot-631b8b197/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+    
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact sections-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h2>Nous contacter</h2>
+        <p>On te manque déjà ou tu as des questions, des suggestions ? Alors laisse nous un message auquel nous nous empresserons de répondre</p>
+      </div>
+      <div class="row gx-lg-0 gy-4">
+        <div class="col-lg-4">
+          <div class="info-container d-flex flex-column align-items-center justify-content-center">
+            <div class="info-item d-flex">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h4>Location:</h4>
+                <p>25 rue Docteur Annino,<br> Saint-Étienne, 42000, France
+                </p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h4>Email:</h4>
+                <p>hello@dechetse.fr</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-phone flex-shrink-0"></i>
+              <div>
+                <h4>Téléphone :</h4>
+                <p>+33 0 12 34 56 78</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex">
+              <i class="bi bi-clock flex-shrink-0"></i>
+              <div>
+                <h4>Heures d'ouvertures :</h4>
+                <p>Du lundi au vendredi : 9h-18h</p>
+              </div>
+            </div><!-- End Info Item -->
+          </div>
+
+        </div>
+
+        <div class="col-lg-8">
+          <form action="./forms/contact.php" method="post" role="form" class="php-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Prénom NOM" required>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Object" required>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+            </div>
+            <div class="text-center"><button type="submit">Envoyer le message</button></div>
+          </form>
+        </div><!-- End Contact Form -->
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Déche'Tse</span>
+          </a>
+          <p>Avec Déche'Tse, recycler n'est plus une option.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#">Comment ça marche ?</a></li>
+            <li><a href="#services">Les stats !</a></li>
+            <li><a href="#team">Notre équipe</a></li>
+            <li><a href="#contact">Nous contacter</a></li>
+            <li><a href="privacy-policy.html">Polique de traitement des données</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Nos services</h4>
+          <ul>
+            <li><a href="#">Le projet</a></li>
+            <li><a href="#portfolio">S'informer</a></li> <!-- comment ça marche-->
+            <li><a href="IA/fast-scan.php">Scanner un déchet</a></li>
+            <li><a href="account/login.html">Connexion</a></li>
+            <li><a href="#recent-news">Les actus</a></li>
+            <li><a href="#testimonials">Les avis</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Nous contacter</h4>
+          <p>
+            25 rue Docteur Annino<br>
+            Saint-Étienne, 42000<br>
+            France<br><br>
+            <strong>Téléphone :</strong> +33 0 12 34 56 78<br>
+            <strong>Email :</strong> hello@dechetse.fr<br>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Déche'Tse</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <strong><span>Julien MUGUET, Maëlo REOT & Syrine HASSAYOUN</span></strong>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
